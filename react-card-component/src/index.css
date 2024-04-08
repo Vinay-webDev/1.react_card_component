@@ -2,6 +2,7 @@
     border: 1px solid hsl(0, 0%, 80%);
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.121);
+    background-color: skyblue;
     padding: 20px;
     text-align: center;
     max-width: 200px;
@@ -23,10 +24,34 @@
 }
 .card .card-text {
     font-family: Arial, sans-serif;
-    color: hsla(0, 0%, 36%, 0.82);
+    color: hsla(0, 0%, 24%, 0.82);
 }
 
-
-
-
-
+.card2 {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    background-color: goldenrod;
+    max-width: 200px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.121);
+    padding: 20px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.card2 .card2-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin: 2px;
+}
+.card2 .card2-title {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color:hsl(18, 100%, 50%);
+    margin: 10px;
+}
+.card2 .card2-text {
+    font-family: Arial, sans-serif;
+    color: hsla(0, 0%, 24%, 0.82);
+}
